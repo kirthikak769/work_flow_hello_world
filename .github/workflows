@@ -1,0 +1,13 @@
+name: print-name
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  print-name:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print message
+        run: echo "Hello from print-name workflow!"
