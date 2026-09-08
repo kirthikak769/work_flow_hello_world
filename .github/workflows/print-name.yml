@@ -6,8 +6,9 @@ on:
       - main
 
 jobs:
-  print-name:
+  print:
     runs-on: ubuntu-latest
     steps:
       - name: Print message
-        run: echo "Hello from print-name workflow!"
+        run: echo "Hello from GitHub Actions!"
+
