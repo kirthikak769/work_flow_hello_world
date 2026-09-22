@@ -8,7 +8,7 @@ on:
         default: 'dev'
         required: false
       version:
-        description: 'Released version'
+        description: 'Release version'
         required: true
 
 jobs:
